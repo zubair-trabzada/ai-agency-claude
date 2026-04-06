@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="320">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066cc"/>
+      <stop offset="100%" stop-color="#d4a843"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="320" rx="12" fill="url(#bg)"/>
+
+  <!-- Top accent line -->
+  <rect x="40" y="40" width="120" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Main title -->
+  <text x="40" y="105" font-family="monospace, 'Courier New'" font-size="62" font-weight="bold" fill="#d4a843" letter-spacing="6">AI AGENCY</text>
+
+  <!-- Subtitle -->
+  <text x="40" y="140" font-family="monospace, 'Courier New'" font-size="20" fill="#0066cc" letter-spacing="2">COMMAND CENTER</text>
+
+  <!-- Tagline -->
+  <text x="40" y="172" font-family="monospace, 'Courier New'" font-size="15" fill="#6b7b8d">Zero-Employee AI Agency Command Center for Claude Code</text>
+
+  <!-- Stat badges row -->
+  <!-- Badge: 8 Skills -->
+  <rect x="40" y="195" width="100" height="28" rx="6" fill="#0d1117" stroke="#0066cc" stroke-width="1"/>
+  <text x="90" y="214" font-family="monospace, 'Courier New'" font-size="12" fill="#d4a843" text-anchor="middle" font-weight="bold">8 Skills</text>
+
+  <!-- Badge: 5 Agents -->
+  <rect x="155" y="195" width="100" height="28" rx="6" fill="#0d1117" stroke="#0066cc" stroke-width="1"/>
+  <text x="205" y="214" font-family="monospace, 'Courier New'" font-size="12" fill="#d4a843" text-anchor="middle" font-weight="bold">5 Agents</text>
+
+  <!-- Badge: 5 Teams -->
+  <rect x="270" y="195" width="100" height="28" rx="6" fill="#0d1117" stroke="#0066cc" stroke-width="1"/>
+  <text x="320" y="214" font-family="monospace, 'Courier New'" font-size="12" fill="#d4a843" text-anchor="middle" font-weight="bold">5 Teams</text>
+
+  <!-- Badge: PDF Reports -->
+  <rect x="385" y="195" width="120" height="28" rx="6" fill="#0d1117" stroke="#0066cc" stroke-width="1"/>
+  <text x="445" y="214" font-family="monospace, 'Courier New'" font-size="12" fill="#d4a843" text-anchor="middle" font-weight="bold">PDF Reports</text>
+
+  <!-- Badge: Unified Scoring -->
+  <rect x="520" y="195" width="140" height="28" rx="6" fill="#0d1117" stroke="#0066cc" stroke-width="1"/>
+  <text x="590" y="214" font-family="monospace, 'Courier New'" font-size="12" fill="#d4a843" text-anchor="middle" font-weight="bold">Unified Scoring</text>
+
+  <!-- Command preview -->
+  <text x="40" y="258" font-family="monospace, 'Courier New'" font-size="13">
+    <tspan fill="#0066cc">/agency onboard</tspan><tspan fill="#4A5568"> full 5-team audit</tspan>
+  </text>
+  <text x="300" y="258" font-family="monospace, 'Courier New'" font-size="13">
+    <tspan fill="#0066cc">/agency propose</tspan><tspan fill="#4A5568"> unified proposal</tspan>
+  </text>
+  <text x="560" y="258" font-family="monospace, 'Courier New'" font-size="13">
+    <tspan fill="#0066cc">/agency report-pdf</tspan><tspan fill="#4A5568"> PDF report</tspan>
+  </text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="296" width="900" height="24" rx="0" fill="#0A0F1A"/>
+  <text x="40" y="313" font-family="monospace, 'Courier New'" font-size="12" fill="#4A5568">
+    orchestrates: marketing + sales + legal + reputation + geo/seo into one unified command center
+  </text>
+</svg>
