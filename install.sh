@@ -106,6 +106,7 @@ SKILLS=(
     "agency-pipeline"
     "agency-client"
     "agency-status"
+    "agency-dashboard"
     "agency-report-pdf"
     "agency-stack"
 )
